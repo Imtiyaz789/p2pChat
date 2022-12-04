@@ -2,5 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: yellowgreen;
+    /* background: yellowgreen; */
+}
+#video{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+.video-player{
+    background-color: black;
+    width: 100%;
+    height: 300px;
 }
